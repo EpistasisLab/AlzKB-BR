@@ -1,0 +1,11 @@
+Allen Human Brain Atlas (ABA)
+
+The brain transcriptomic data were obtained from the Allen Human Brain Atlas (ABA):
+
+https://human.brain-map.org/static/download
+
+The repository uses the complete normalized microarray datasets, 
+which include gene expression values from six healthy adult human brains. 
+These datasets contain normalized microarray expression values together with probe 
+annotations and sample metadata required for downstream analyses, including probe-to-gene 
+mapping and differential expression analysis.
