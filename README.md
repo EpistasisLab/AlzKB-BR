@@ -5,7 +5,7 @@
 AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain region-specific transcriptomic information from the Allen Human Brain Atlas (ABA). The goal is to improve the biological interpretation of knowledge graph-based drug repurposing predictions for Alzheimer's disease (AD) by incorporating neuroanatomical context.
 
 <p align="center">
-  <img src="figures/figure_1_study_overview.png" width="1000">
+  <img src="figures/study overview.png" width="1000">
 </p>
 
 ---
