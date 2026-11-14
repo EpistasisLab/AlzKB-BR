@@ -19,9 +19,18 @@ AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain reg
 * Generate gene–brain region relationships
 * Extend AlzKB to create **AlzKB-BR**
 
+### 2. Permuted AlzKB-BR Negative Control KG
+
+* We imported a negative control triples into Memgraph through the process from https://github.com/EpistasisLab/AlzKB/blob/master/BUILD.org
+* 1) set up Memgraph locally with Docker and import the AlzKB Cypher export
+  2) remove the original brain-region–gene relationships
+  3) copy the permuted triples CSV into the Memgraph container
+  4) load the permuted triples and recreate the overexpression and underexpression relationships
+
+
 ### 2. Knowledge Graph Evaluation
 
-* Compare **AlzKB** and **AlzKB-BR**
+* Compare **AlzKB**,  **AlzKB-BR**, and **Permuted AlzKB-BR Negative Control KG**
 * Train the **RotatE** knowledge graph embedding model
 * Evaluate performance using **MRR**, **Hits@1**, **Hits@3**, and **Hits@10**
 
@@ -63,7 +72,8 @@ AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain reg
 │   ├── validate_rotate_model.py
 │   ├── robust_rank_aggregation.R
 │   ├── construct_brain_region_relationships.ipynb
-│   └── biological_refinement.ipynb
+│   └── biological_refinement.ipynb,permuted_AlzKB-BR_negative-control_KG.py
+
 │
 ├── figures/
 ├── supplementary/
@@ -97,7 +107,6 @@ AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain reg
 
   * FDA-approved drugs
   * AD-associated genes
-  * Brain-region relevance
   * Pharmacogene exclusion
 
 ### Biological Interpretation
