@@ -22,10 +22,10 @@ AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain reg
 ### 2. Permuted AlzKB-BR Negative Control KG
 
 * We imported a negative control triples into Memgraph through the process from https://github.com/EpistasisLab/AlzKB/blob/master/BUILD.org
-* 1) set up Memgraph locally with Docker and import the AlzKB Cypher export
-  2) remove the original brain-region–gene relationships
-  3) copy the permuted triples CSV into the Memgraph container
-  4) load the permuted triples and recreate the overexpression and underexpression relationships
+  1) Set up Memgraph locally with Docker and import the AlzKB Cypher export
+  2) Remove the original brain-region–gene relationships
+  3) Copy the permuted triples CSV into the Memgraph container
+  4) Load the permuted triples and recreate the overexpression and underexpression relationships
 
 
 ### 2. Knowledge Graph Evaluation
