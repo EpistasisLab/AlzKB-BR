@@ -72,7 +72,8 @@ AlzKB-BR extends the Alzheimer's Knowledge Base (AlzKB) by integrating brain reg
 │   ├── validate_rotate_model.py
 │   ├── robust_rank_aggregation.R
 │   ├── construct_brain_region_relationships.ipynb
-│   └── biological_refinement.ipynb,permuted_AlzKB-BR_negative-control_KG.py
+|   ├── biological_refinement.ipynb
+│   └── permuted_AlzKB-BR_negative-control_KG.py
 
 │
 ├── figures/
